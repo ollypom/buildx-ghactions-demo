@@ -1,0 +1,7 @@
+[worker.oci]
+    enabled = true
+    platforms = ["linux/amd64"]
+    snapshotter = "stargz"
+    rootless = false
+[worker.containerd]
+    enabled = false
